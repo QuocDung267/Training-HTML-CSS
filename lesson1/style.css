@@ -1,0 +1,20 @@
+* {
+    font-style: italic;
+}
+
+p {
+    text-decoration: underline;
+}
+
+.class-1 {
+    color: red;
+}
+
+.class-2.class-3 {
+    color: green;
+}
+
+.class-4 .class-5 {
+    color: purple;
+
+}
