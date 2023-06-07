@@ -25,10 +25,37 @@ p {
 
 }
 
+/* lựa chọn toàn bộ các thẻ p có class-6 */
 p.class-6 {
     color: blue;
 }
 
 div.class-6 {
     text-decoration: none;
+}
+
+/* lựa chọn tất cả các thẻ h3 h4 */
+h3,
+h4 {
+    color: brown;
+}
+
+/* lựa chọn tất cả các thẻ con của class = "list" */
+.list li {
+    color: skyblue;
+}
+
+/* lựa chọn tất cả các thẻ con trực tiếp của class = "list" */
+.list>li {
+    color: pink;
+}
+
+/* lựa chọn toàn bộ thẻ p đứng sau liền kề class="class-9" */
+.class-9+p {
+    color: red;
+}
+
+/* lựa chọn tất cả các thẻ p đứng sau class="class-10" */
+.class-10~p {
+    color: green;
 }

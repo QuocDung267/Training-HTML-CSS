@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- đây là kiểu viết external -->
+    <link rel="stylesheet" href="style.css">
+    <!-- đây là kiểu viết internal -->
+    <style>
+        /* giữ vào đó ta thấy mức độ ưu tiên là Internal, External --> tag --> class --> id --> inline */
+        .heading-class {
+            color: aqua;
+        }
+
+        /* sử dụng tổng độ ưu tiên lên 1 element */
+        h1#heading-id {
+            color: blue;
+        }
+
+        /* nhận css mới nhất */
+        #heading-id {
+            color: black !important;
+        }
+
+        h1 {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1 id="heading-id" class="heading-class">Priority?</h1>
+        <ol>
+            <!-- cách viết giữ internal và external không có độ ưu tiên chỉ là cách nào viết sau thì sẽ được áp dụng css -->
+            <li>Internal, external?</li>
+            <li>Inline - 1000</li>
+            <li>#id - 100</li>
+            <li>class - 10</li>
+            <li>tag - 1</li>
+            <li>Equal specifycity</li>
+            <li>Universal selector and inherited?(độ ưu tiên của 2 cách này bằng 0)</li>
+        </ol>
+    </div>
+</body>
+
+</html>

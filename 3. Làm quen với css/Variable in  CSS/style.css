@@ -1,0 +1,10 @@
+:root {
+    /* biến global */
+    --text-color: red 
+}
+
+h1 {
+    /* sử dụng biến cụ bọ */
+    --my-color: blue 
+    color: var(--my-color);
+}
