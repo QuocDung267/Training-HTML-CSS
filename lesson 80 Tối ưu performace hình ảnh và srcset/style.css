@@ -1,0 +1,10 @@
+/* thực hành với Positon */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* -----------------search: placeholder image */
+img{
+    background-size: cover;
+    background-repeat:no-repeat;
+}

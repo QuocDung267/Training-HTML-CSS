@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /* biến global */
+    --text-color: red 
+}
+
+.title {
+    /* sử dụng biến cụ bọ */
+    /* --my-color: blue */
+    color: var(--text-color);
+}
+/* ---------------------------------------------------------- */
+/* đơn vị trong CSS */
+/* absolute units: khi kích thước trình duyệt thay đổi thì nó không đổi kích thước của element */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+/* relative units: thay đổi kích thước theo phần tử chứa nó */
+.heading{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+}
+/* rem trong relative */

@@ -1,0 +1,24 @@
+/* thực hành với border */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.box1 {
+    background-color: red;
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: green;
+}

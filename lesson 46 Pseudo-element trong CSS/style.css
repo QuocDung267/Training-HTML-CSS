@@ -1,0 +1,6 @@
+/* thực hành với :selector, dùng để style cho phần nội dung đã chọn (bôi đen) */
+::selection{
+    color: white;
+    background-color: pink;
+    outline: 3px solid #2f3ffa;
+}

@@ -1,0 +1,24 @@
+:root {
+    --heading-color: red;
+    --text-size: 30px;
+    --title-color: green;
+}
+/* using var() in CSS */
+.title {
+    color: var(--heading-color);
+}
+.title1{
+    font-size: var(--text-size);
+    color: var(--title-color);
+}
+/* Thực hành với :hover */
+.button{
+    padding: 8px 16px ;
+    background-color: red;
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: rgba(240, 81, 35, 0.8);
+}
